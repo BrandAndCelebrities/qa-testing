@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.brandandcelebrities.data.influence.chrome.GetTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 58.055 s <<< FAILURE! - in com.brandandcelebrities.data.influence.chrome.GetTest
+com.brandandcelebrities.data.influence.chrome.GetTest.getReport  Time elapsed: 12.854 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.cssSelector: div.Listening_content__3g2ub (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-60-generic', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.dHNju6}, goog:chromeOptions: {debuggerAddress: localhost:34955}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34955/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26fc0138bfa19c5773c8d41c2a390130
+	at com.brandandcelebrities.data.influence.chrome.GetTest.getReport(GetTest.java:30)
+
