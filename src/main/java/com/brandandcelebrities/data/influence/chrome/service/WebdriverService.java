@@ -24,6 +24,7 @@ public class WebdriverService {
 
     public WebdriverService(final WebDriver webDriver) {
         this.webDriver = webDriver;
+        webDriver.manage().window().maximize();
     }
 
     public WebDriver getWebDriver() {
